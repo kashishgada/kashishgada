@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kashish Gada - Computer Science Student & Developer</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Archivo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <span class="brand-text"></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background"></div>
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="hero-content">
+                        <p class="hero-greeting">Hello, I'm</p>
+                        <h1 class="hero-name">Kashish Gada</h1>
+                        <div class="hero-roles"> 
+                            <span class="typed-text" id="typed-output"></span>
+                            <span class="cursor">&nbsp;</span>
+                        </div>
+                        <p class="hero-description">
+                            Computer Science student passionate about AI technologies, software development, 
+                            and process optimization with 4+ years of experience in IT operations.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn btn-primary-custom">Get in Touch</a>
+                            <a href="#projects" class="btn btn-outline-custom">View Projects</a>
+                        </div>
+                        <div class="hero-social">
+                            <a href="https://github.com/kashishgada" target="_blank" aria-label="GitHub">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kashishgada/" target="_blank" aria-label="LinkedIn">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="mailto:kashishgada@gmail.com" aria-label="Email">
+                                <i class="bi bi-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="hero-image-container">
+                        <div class="hero-image-wrapper">
+                            <img src="profile-photo.jpeg" alt="Kashish Gada" class="hero-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <i class="bi bi-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="about-content">
+                        <p class="lead">
+                            Computer Science student with 4+ years of experience in IT operations, process optimization, 
+                            logistics and software development.
+                        </p>
+                        <p>
+                            I'm skilled in coding, documentation, research, and digital tool integration to enhance 
+                            efficiency and quality assurance. My passion lies in AI technologies and innovation, 
+                            constantly seeking new ways to optimize processes and create impactful solutions.
+                        </p>
+                        <p>
+                            Currently pursuing my Bachelor's in Computer Science at IU Internationale Hochschule in Germany, 
+                            I bring a unique blend of technical expertise and hands-on operational experience. I'm adaptable, 
+                            detail-oriented, and thrive in cross-cultural collaborative environments.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="bi bi-award"></i>
+                                <div>
+                                    <h4>4+ Years</h4>
+                                    <p>IT Operations Experience</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="bi bi-graph-up"></i>
+                                <div>
+                                    <h4>15% Increase</h4>
+                                    <p>Profitability Achievement</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="bi bi-people"></i>
+                                <div>
+                                    <h4>Leadership</h4>
+                                    <p>VP of Events & Projects</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="quick-info">
+                        <h3>Quick Info</h3>
+                        <ul class="info-list">
+                            <li>
+                                <i class="bi bi-geo-alt"></i>
+                                <span>Berlin, Germany</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-mortarboard"></i>
+                                <span>4th Year CS Student</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-translate"></i>
+                                <span>English (C1), German (A2), Hindi (C2)</span>
+                            </li>
+                            <li>
+                                <i class="bi bi-lightning"></i>
+                                <span>AI & Innovation Enthusiast</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+            </div>
+            <div class="row">
+                <!-- Technical Skills -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="bi bi-code-slash"></i>
+                            Technical Skills
+                        </h3>
+                        <div class="skill-grid">
+                            <div class="skill-item">
+                                <i class="bi bi-filetype-html"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-filetype-css"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-filetype-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-bootstrap"></i>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-filetype-py"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-database"></i>
+                                <span>SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-git"></i>
+                                <span>Git & GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-terminal"></i>
+                                <span>Version Control</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Development & Tools -->
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="bi bi-tools"></i>
+                            Development & Tools
+                        </h3>
+                        <div class="skill-grid">
+                            <div class="skill-item">
+                                <i class="bi bi-microsoft"></i>
+                                <span>Microsoft Office 365</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-diagram-3"></i>
+                                <span>Agile Development</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-cloud"></i>
+                                <span>Cloud Computing</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-life-preserver"></i>
+                                <span>IT Support</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-calculator"></i>
+                                <span>Applied Mathematics</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-search"></i>
+                                <span>Research</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-speedometer2"></i>
+                                <span>Process Optimization</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="bi bi-bug"></i>
+                                <span>Troubleshooting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="col-lg-12" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="bi bi-person-check"></i>
+                            Professional Skills
+                        </h3>
+                        <div class="soft-skills">
+                            <span class="soft-skill-badge">Cross-Cultural Collaboration</span>
+                            <span class="soft-skill-badge">Analytical Thinking</span>
+                            <span class="soft-skill-badge">Problem Solving</span>
+                            <span class="soft-skill-badge">Organizational Skills</span>
+                            <span class="soft-skill-badge">Multilingual Communication</span>
+                            <span class="soft-skill-badge">Agile Methodologies</span>
+                            <span class="soft-skill-badge">Team Coordination</span>
+                            <span class="soft-skill-badge">Project Management</span>
+                            <span class="soft-skill-badge">Quality Assurance</span>
+                            <span class="soft-skill-badge">Data-Driven Decision Making</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Experience</h2>
+            </div>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">June 2023 - Sep 2024</div>
+                        <h3 class="timeline-title">Vice-President of Events and Projects</h3>
+                        <h4 class="timeline-company">Deutsche Gesellschaft Internationaler Studierender (DEGIS)</h4>
+                        <ul class="timeline-description">
+                            <li>Optimized project execution and team coordination</li>
+                            <li>Automated workflows with SharePoint, MS Office, Excel, and Teams</li>
+                            <li>Led data-driven decision-making and resource analysis</li>
+                            <li>Managed budget allocation and event planning</li>
+                            <li>Conducted comprehensive research for strategic initiatives</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Project Management</span>
+                            <span>MS Office</span>
+                            <span>SharePoint</span>
+                            <span>Leadership</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Nov 2022 - Feb 2024</div>
+                        <h3 class="timeline-title">Operations Associate</h3>
+                        <h4 class="timeline-company">Flink GmbH</h4>
+                        <ul class="timeline-description">
+                            <li>Performed quality assurance checks and optimized workflows</li>
+                            <li>Improved operational efficiency through process enhancement</li>
+                            <li>Coordinated team activities and managed inbound operations</li>
+                            <li>Handled customer inquiries maintaining service standards</li>
+                            <li>Ensured efficient order processing and fulfillment</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>Quality Assurance</span>
+                            <span>Operations</span>
+                            <span>Customer Service</span>
+                            <span>Process Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Dec 2019 - Aug 2022</div>
+                        <h3 class="timeline-title">IT & Process Optimization Analyst</h3>
+                        <h4 class="timeline-company">Galaxy</h4>
+                        <ul class="timeline-description">
+                            <li>Managed inventory and conducted product testing</li>
+                            <li>Monitored sales and automated workflows</li>
+                            <li>Optimized operations and performed product quality checks</li>
+                            <li>Conducted financial analysis and implemented cost-effective strategies</li>
+                            <li><strong>Increased profitability by 15%</strong> through strategic optimization</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span>IT Operations</span>
+                            <span>Process Automation</span>
+                            <span>Financial Analysis</span>
+                            <span>Quality Control</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="bi bi-mortarboard-fill"></i>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-date">2022 - Ongoing</div>
+                            <h3 class="education-degree">Bachelor's of Computer Science</h3>
+                            <h4 class="education-school">IU Internationale Hochschule, Germany</h4>
+                            <ul class="education-highlights">
+                                <li>Data Structure and Java Class Library</li>
+                                <li>Big Data Technology and Cloud Computing</li>
+                                <li>Software Engineering</li>
+                                <li>IT Service Management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="education-card">
+                        <div class="education-icon">
+                            <i class="bi bi-mortarboard-fill"></i>
+                        </div>
+                        <div class="education-content">
+                            <div class="education-date">2021 - 2022</div>
+                            <h3 class="education-degree">Bachelor's of Information Technology (IT Honors)</h3>
+                            <h4 class="education-school">Somaiya Vidhyavihar University, India</h4>
+                            <ul class="education-highlights">
+                                <li>Logic and Discrete Mathematics</li>
+                                <li>Web Application Development</li>
+                                <li>Computer Architecture and Hardware</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications-wrapper" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="certifications-title">Certifications</h3>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="certification-item">
+                            <i class="bi bi-patch-check-fill"></i>
+                            <div>
+                                <h5>Introduction to Google Sheets</h5>
+                                <p>Google Cloud - April 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="certification-item">
+                            <i class="bi bi-patch-check-fill"></i>
+                            <div>
+                                <h5>Google Sheets: Advanced Topics</h5>
+                                <p>Google Cloud - April 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="certification-item">
+                            <i class="bi bi-patch-check-fill"></i>
+                            <div>
+                                <h5>HTML Essential Training</h5>
+                                <p>James Williamson - May 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="certification-item">
+                            <i class="bi bi-patch-check-fill"></i>
+                            <div>
+                                <h5>CSS Essential Training</h5>
+                                <p>Christina Truong - June 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-3">
+                        <div class="certification-item">
+                            <i class="bi bi-patch-check-fill"></i>
+                            <div>
+                                <h5>Agile Foundations</h5>
+                                <p>Doug Rose - July 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">05.</span>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="bi bi-display"></i>
+                        </div>
+                        <h3 class="project-title">Electronics Web Pages</h3>
+                        <p class="project-description">
+                            Created 70+ product pages using HTML, JavaScript, and Bootstrap with responsive design 
+                            and user-friendly navigation.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="bi bi-journal-text"></i>
+                        </div>
+                        <h3 class="project-title">Diary Application</h3>
+                        <p class="project-description">
+                            Designed comprehensive app structure and workflows using Scrum methodology for 
+                            efficient project management.
+                        </p>
+                        <div class="project-tech">
+                            <span>Scrum</span>
+                            <span>Agile</span>
+                            <span>UX Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="bi bi-file-earmark-code"></i>
+                        </div>
+                        <h3 class="project-title">Log Analyzer Specification</h3>
+                        <p class="project-description">
+                            Drafted detailed specifications for a system log error detection tool to improve 
+                            system monitoring and debugging.
+                        </p>
+                        <div class="project-tech">
+                            <span>Documentation</span>
+                            <span>System Analysis</span>
+                            <span>Testing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="bi bi-rocket-takeoff"></i>
+                        </div>
+                        <h3 class="project-title">Space News Website</h3>
+                        <p class="project-description">
+                            Developed a dynamic space news site using HTML, CSS, JavaScript, and integrated 
+                            API for real-time updates.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="bi bi-cart"></i>
+                        </div>
+                        <h3 class="project-title">E-commerce Platform</h3>
+                        <p class="project-description">
+                            Built a complete Wix e-commerce store with integrated payment processing and 
+                            order tracking system.
+                        </p>
+                        <div class="project-tech">
+                            <span>Wix</span>
+                            <span>E-commerce</span>
+                            <span>Payment Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h3 class="project-title">Collaborative Learning Research</h3>
+                        <p class="project-description">
+                            Researched and documented effective strategies for group-based learning and 
+                            collaborative education methods.
+                        </p>
+                        <div class="project-tech">
+                            <span>Research</span>
+                            <span>Documentation</span>
+                            <span>Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-number">06.</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-content">
+                        <p class="contact-intro">
+                            I'm currently looking for new opportunities and collaborations. Whether you have a 
+                            question or just want to say hi, feel free to reach out!
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="bi bi-envelope-fill"></i>
+                                <div>
+                                    <h4>Email</h4>
+                                    <a href="mailto:kashishgada@gmail.com">kashishgada@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="bi bi-telephone-fill"></i>
+                                <div>
+                                    <h4>Phone</h4>
+                                    <a href="tel:+4917669486660">+49 176 69486660</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <i class="bi bi-geo-alt-fill"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <p>Franz-Mehring-Platz 3, 10243, Berlin</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-social">
+                            <a href="https://github.com/kashishgada" target="_blank" class="social-link">
+                                <i class="bi bi-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/kashishgada/" target="_blank" class="social-link">
+                                <i class="bi bi-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                        </div>
+                        <div class="download-cv">
+                            <a href="Kashish_Gada_CV.pdf" download class="btn btn-primary-custom">
+                                <i class="bi bi-download"></i>
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2026 Kashish Gada. Designed & Built with passion.</p>
+                <div class="footer-links">
+                    <a href="#home">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
