@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kashishgada.github.io/kashishgada/sitemap.xml
+Sitemap: https://kashishgada.me/sitemap.xml

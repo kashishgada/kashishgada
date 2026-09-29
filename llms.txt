@@ -28,6 +28,6 @@ The portfolio includes work on electronics product pages, a diary application, a
 
 ## Links
 
-- Website: https://kashishgada.github.io/kashishgada/
+- Website: https://kashishgada.me/
 - GitHub: https://github.com/kashishgada
 - LinkedIn: https://www.linkedin.com/in/kashishgada/
