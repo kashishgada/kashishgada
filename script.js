@@ -1,12 +1,17 @@
 // ===========================
 // Initialize AOS (Animate On Scroll)
 // ===========================
-AOS.init({
-    duration: 1000,
-    easing: 'ease-out-cubic',
-    once: true,
-    offset: 100
-});
+const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+if (typeof AOS !== 'undefined') {
+    AOS.init({
+        duration: reducedMotion ? 0 : 1000,
+        easing: 'ease-out-cubic',
+        once: true,
+        offset: 100,
+        disable: reducedMotion
+    });
+}
 
 // ===========================
 // Navbar Scroll Effect
@@ -57,11 +62,11 @@ const erasingDelay = 50;
 const newTextDelay = 2000;
 
 const textArray = [
+    "AI Engineering Intern",
     "Computer Science Student",
-    "IT Operations Specialist",
-    "Process Optimizer",
-    "Web Developer",
-    "Problem Solver"
+    "Software Developer",
+    "AI Integration Specialist",
+    "Process Optimizer"
 ];
 
 let textArrayIndex = 0;
@@ -198,11 +203,6 @@ const observer = new IntersectionObserver((entries) => {
             entry.target.classList.add('animate');
             
             // Trigger counter animations if element has data-count attribute
-            const counters = entry.target.querySelectorAll('[data-count]');
-            counters.forEach(counter => {
-                const target = parseInt(counter.getAttribute('data-count'));
-                animateCounter(counter, target);
-            });
         }
     });
 }, observerOptions);

@@ -546,6 +546,59 @@ section {
     border-color: var(--primary-light);
 }
 
+/* Featured AI & Machine Learning Integration category */
+.featured-category {
+    position: relative;
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+    border: 2px solid var(--accent-color);
+    overflow: hidden;
+}
+
+.featured-category:hover {
+    box-shadow: 0 10px 40px rgba(244, 162, 97, 0.25);
+}
+
+.featured-badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--accent-color);
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 16px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.featured-category .category-title {
+    color: #FFFFFF;
+}
+
+.featured-category .category-title i {
+    color: var(--accent-color);
+}
+
+.featured-category .skill-item {
+    background: rgba(255, 255, 255, 0.08);
+    border: 2px solid transparent;
+}
+
+.featured-category .skill-item i {
+    color: var(--accent-color);
+}
+
+.featured-category .skill-item span {
+    color: #FFFFFF;
+}
+
+.featured-category .skill-item:hover {
+    border-color: var(--accent-color);
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateX(5px);
+}
+
 /* ===========================
    Experience Section
    =========================== */
@@ -1040,5 +1093,19 @@ section {
     
     .skill-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
     }
 }
