@@ -1,0 +1,33 @@
+# Kashish Gada
+
+> AI engineering intern and computer science student based in Berlin, Germany.
+
+## About
+
+Kashish Gada works on AI software engineering, LLM integration, developer tooling, automated workflows, process optimization, and practical software systems. He is currently an AI Engineering & Research Intern at Voicari GmbH and studies Computer Science at IU Internationale Hochschule.
+
+## Skills
+
+- LLM integration and APIs
+- Prompt engineering
+- Agentic workflows
+- Retrieval-augmented generation (RAG)
+- Python, Java, JavaScript, HTML, CSS, SQL, and Bootstrap
+- Developer tooling, Git/GitHub, Agile development, research, and process optimization
+
+## Experience
+
+- AI Engineering & Research Intern at Voicari GmbH
+- Vice-President of Events and Projects
+- Operations Associate at Flink GmbH
+- IT & Process Optimization Analyst at Galaxy
+
+## Projects
+
+The portfolio includes work on electronics product pages, a diary application, a log analyzer specification, a space news website, an e-commerce platform, and collaborative learning research.
+
+## Links
+
+- Website: https://kashishgada.github.io/kashishgada/
+- GitHub: https://github.com/kashishgada
+- LinkedIn: https://www.linkedin.com/in/kashishgada/
