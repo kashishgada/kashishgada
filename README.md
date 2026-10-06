@@ -1,11 +1,11 @@
-# Hi, I'm Kashish Gada 👋
+# Hi, I'm Kashish Gada 
 
 ### AI Engineering & Research Intern · Computer Science Student · Software Developer
 
 I build practical software systems with a focus on **AI integration, LLM-powered developer tools, automation, and process optimization**. I enjoy turning emerging technology into reliable workflows that make complex work simpler and more efficient.
 
-- 🔭 Currently working as an **AI Engineering & Research Intern at Voicari GmbH**
-- 🎓 Studying **Computer Science at IU Internationale Hochschule**
+- 🔭 Currently working as an **AI Engineering & Research Working Student at Voicari GmbH**
+- 🎓 Studying **Bachelor's in Computer Science at IU Internationale Hochschule**
 - 📍 Based in **Berlin, Germany**
 - 🧠 Interested in **LLM applications, RAG systems, agentic workflows, developer tooling, and software engineering**
 - 🤝 Open to connecting about **AI engineering, software development, research, and practical automation**
@@ -44,7 +44,7 @@ More details and project updates are available on my [portfolio website](https:/
 
 ## Experience
 
-- **AI Engineering & Research Intern** - Voicari GmbH
+- **AI Engineering & Research Working Student** - Voicari GmbH
 - **Vice-President of Events and Projects** - DEGIS
 - **Operations Associate** - Flink GmbH
 - **IT & Process Optimization Analyst** - Galaxy
